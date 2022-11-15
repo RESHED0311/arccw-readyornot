@@ -167,7 +167,7 @@ SWEP.Attachments = {
         Bone = "gun",
         Offset = {
             vpos = Vector(0, 2.1, 18),
-            vang = Angle(90, 0, 0),
+            vang = Angle(90, 0, -90),
             wpos = Vector(26.648, 0.782, -8.042),
             wang = Angle(-9.79, 0, 180)
         },
