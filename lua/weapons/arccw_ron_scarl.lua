@@ -34,7 +34,7 @@ SWEP.UseHands = true
 
 SWEP.ViewModel = "models/weapons/scarLRON.mdl"
 SWEP.WorldModel = "models/weapons/scarLRON.mdl"
-SWEP.ViewModelFOV = 60
+SWEP.ViewModelFOV = 55
 
 SWEP.DefaultBodygroups = "000000"
 
@@ -206,6 +206,10 @@ SWEP.Animations = {
     ["idle"] = {
         Source = "idle",
         Time = 1
+    },
+    ["fire"] = {
+        Source = "fire",
+		Time = 0.15
     },
     ["idle_empty"] = {
         Source = "idle_empty",
