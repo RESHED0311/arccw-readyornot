@@ -143,6 +143,7 @@ SWEP.Attachments = {
         DefaultAttName = "Iron Sights",
         Slot = "optic", -- what kind of attachments can fit here, can be string or table
         Bone = "gun", -- relevant bone any attachments will be mostly referring to
+		VMScale = Vector(1.2, 1.2, 1.2),
         Offset = {
             vpos = Vector(0, 0, 0), -- offset that the attachment will be relative to the bone
             vang = Angle(90, 0, -90),
